@@ -1,9 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Ivan Vargas Marza 
+* Título corto del trabajo:  Réplica de adaptador de amplificador Adafruit I2S Clase D
+* Descripción:  Se realiza la réplica del adaptador indicado, cambiando en modo mono del mismo a estéreo 
 
 
 ## Licencia de este trabajo ##
