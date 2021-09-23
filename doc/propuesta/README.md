@@ -1,5 +1,7 @@
 ## Propuesta ##
+
 En este directorio debe ir OBLIGATORIAMENTE la información que se presentó al momento de acordar la propuesta de TP con el docente. Es decir:
+
 * Fotos e imágenes de las placas de ambos lados si es una réplica. 
 * Fotos e imágenes de los prototipos cableados o pruebas si es un trabajo de tesis.
 * Urls o info de origen. 
