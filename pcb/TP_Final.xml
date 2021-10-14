@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\ivanv\Downloads\tp-final-Jr130797\pcb\TP_Final.sch</source>
+    <date>14/10/2021 9:54:31</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Réplica de adaptador de amplificador Adafruit I2S Clase D</title>
+        <company>Creative Commmons License</company>
+        <rev>2.0</rev>
+        <date>2021-10-14</date>
+        <source>TP_Final.sch</source>
+        <comment number="1" value="Revisor: Ivan Vargas Marza"/>
+        <comment number="2" value="Autor: Ivan Vargas Marza"/>
+        <comment number="3" value="ID del Documento: TPF-IVM-01"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613ADB00</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613AE1A6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MAX98357AETE+T</value>
+      <footprint>MAX98357AETE+T:Maxim_Electronics-21-0896-0-0-0</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf</datasheet>
+      <fields>
+        <field name="category">IC</field>
+        <field name="digikey description">Amplifier IC 2-Channel (Stereo) Class D 16-TQFN (3x3)</field>
+        <field name="digikey part number">MAX98357AETE+T-ND</field>
+        <field name="lead free">yes</field>
+        <field name="library id">0f54a4b5bdb80fd2</field>
+        <field name="manufacturer">Maxim Electronics</field>
+        <field name="mouser part number">700-MAX98357AETE+T</field>
+        <field name="package">TQFN16</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">+40°C</field>
+      </fields>
+      <libsource lib="TP_Final-rescue" part="MAX98357AETE+T-IC_Maxim_Electronics_MAX98357AETE_T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613C1086</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>Ferrite</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792030?qs=QNEnbhJQKvZHjuHnpBn94g%3D%3D</datasheet>
+      <fields>
+        <field name="category">FE</field>
+        <field name="digikey part number">710-742792030</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613D9324</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792030?qs=QNEnbhJQKvZHjuHnpBn94g%3D%3D</datasheet>
+      <fields>
+        <field name="category">FE</field>
+        <field name="digikey part number">710-742792030</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613E8413</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613EB545</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>Ferrite</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792030?qs=QNEnbhJQKvZHjuHnpBn94g%3D%3D</datasheet>
+      <fields>
+        <field name="category">FE</field>
+        <field name="digikey part number">710-742792030</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613E2A5F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613F003A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613F222F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CE157</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>69.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Resistors/SMD-Resistors-Chip-Resistors/_/N-7h7yu?P=1yzvlks</datasheet>
+      <fields>
+        <field name="category">RF</field>
+        <field name="digikey description">Resistores de alta frecuencia RF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6144E5EA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613F0C79</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>https://b2b.partcommunity.com/3d-cad-models/pinheader-1x07-p2-54mm-vertical-kicad?info=kicad%2Fconnector_pinheader_22e54mm2e3dshapes%2Fpinheader_1x07_p22e54mm_vertical.prj&amp;amp;languageIso=fr</datasheet>
+      <fields>
+        <field name="category">CONN</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614C06CB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://easyeda.com/components/TerminalBlock-Phoenix-MPT-5-2-2-54-1x02-P2-54mm-Horizontal_5dca56537b8441cc8b521df95c031ccd</datasheet>
+      <fields>
+        <field name="category">CONN</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E5908</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MAX98357AETE+T</value>
+      <footprint>MAX98357AETE+T:Maxim_Electronics-21-0896-0-0-0</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf</datasheet>
+      <fields>
+        <field name="category">IC</field>
+        <field name="digikey description">Amplifier IC 2-Channel (Stereo) Class D 16-TQFN (3x3)</field>
+        <field name="digikey part number">MAX98357AETE+T-ND</field>
+        <field name="lead free">yes</field>
+        <field name="library id">0f54a4b5bdb80fd2</field>
+        <field name="manufacturer">Maxim Electronics</field>
+        <field name="mouser part number">700-MAX98357AETE+T</field>
+        <field name="package">TQFN16</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">+40°C</field>
+      </fields>
+      <libsource lib="TP_Final-rescue" part="MAX98357AETE+T-IC_Maxim_Electronics_MAX98357AETE_T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A6BF7</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/Passive-Components/Capacitors/_/N-5g7r?P=1yzvlksZ1z0z7ym&amp;No=17425</datasheet>
+      <fields>
+        <field name="category">CAP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CE15D</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154663C</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615478E5</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154A364</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154B15E</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154D726</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154F9A8</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>Ferrite</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792030?qs=QNEnbhJQKvZHjuHnpBn94g%3D%3D</datasheet>
+      <fields>
+        <field name="category">FE</field>
+        <field name="digikey part number">710-742792030</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613E840D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://easyeda.com/components/TerminalBlock-Phoenix-MPT-5-2-2-54-1x02-P2-54mm-Horizontal_5dca56537b8441cc8b521df95c031ccd</datasheet>
+      <fields>
+        <field name="category">CONN</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E3FAA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="TP_Final-rescue" part="MAX98357AETE+T-IC_Maxim_Electronics_MAX98357AETE_T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX98357AETE+T-IC_Maxim_Electronics_MAX98357AETE_T</field>
+        <field name="Footprint">Maxim_Electronics-21-0896-0-0-*</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf</field>
+        <field name="category">IC</field>
+        <field name="digikey description">Amplifier IC 2-Channel (Stereo) Class D 16-TQFN (3x3)</field>
+        <field name="digikey part number">MAX98357AETE+T-ND</field>
+        <field name="lead free">yes</field>
+        <field name="library id">0f54a4b5bdb80fd2</field>
+        <field name="manufacturer">Maxim Electronics</field>
+        <field name="mouser part number">700-MAX98357AETE+T</field>
+        <field name="package">TQFN16</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">+40°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="unspc"/>
+        <pin num="2" name="GAIN_SLOT" type="unspc"/>
+        <pin num="3" name="GND" type="unspc"/>
+        <pin num="4" name="~SD_MODE~" type="unspc"/>
+        <pin num="5" name="NC" type="unspc"/>
+        <pin num="6" name="NC" type="unspc"/>
+        <pin num="7" name="VDD" type="unspc"/>
+        <pin num="8" name="VDD" type="unspc"/>
+        <pin num="9" name="OUTP" type="unspc"/>
+        <pin num="10" name="OUTN" type="unspc"/>
+        <pin num="11" name="GND" type="unspc"/>
+        <pin num="12" name="NC" type="unspc"/>
+        <pin num="13" name="NC" type="unspc"/>
+        <pin num="14" name="LRCLK" type="unspc"/>
+        <pin num="15" name="GND" type="unspc"/>
+        <pin num="16" name="BCLK" type="unspc"/>
+        <pin num="17" name="GND_PAD" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:\Programas\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Programas\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\Programas\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="TP_Final-rescue">
+      <uri>C:\Users\ivanv\Downloads\tp-final-Jr130797\pcb/TP_Final-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BCLK">
+      <node ref="U2" pin="16"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C7-Pad1)">
+      <node ref="J3" pin="2"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="4" name="Net-(FB3-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="FB3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="7" name="/DIN">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="8" name="/GAIN">
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="9" name="/LRCLK">
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="10" name="/SD_MODE">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="19" name="Net-(FB4-Pad1)">
+      <node ref="FB4" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="20" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="21" name="Net-(FB2-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="FB2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C5-Pad1)">
+      <node ref="J2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C6-Pad1)">
+      <node ref="FB2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>

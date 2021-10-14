@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TP_Final-rescue)(type Legacy)(uri ${KIPRJMOD}/TP_Final-rescue.lib)(options "")(descr ""))
+)

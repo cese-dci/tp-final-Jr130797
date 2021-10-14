@@ -1,0 +1,12 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"J1";"PinHeader_1x07_P2.54mm_Vertical";1;"Conn_01x07";;;
+2;"FID1,FID2,FID3,FID4";"Fiducial_0.5mm_Mask1mm";4;"Fiducial";;;
+3;"H1,H2";"MountingHole_2mm";2;"MountingHole";;;
+4;"J2,J3";"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal";2;"Conn_01x02";;;
+5;"U1";"Maxim_Electronics-21-0896-0-0-0";1;"U1";;;
+6;"U2";"Maxim_Electronics-21-0896-0-0-0";1;"U2";;;
+7;"C1,C3";"C_0805_2012Metric";2;"10uF";;;
+8;"C2,C4";"C_0805_2012Metric";2;"0.1uF";;;
+9;"C5,C6,C7,C8";"C_0805_2012Metric";4;"220pF";;;
+10;"FB1,FB2,FB3,FB4";"Fuse_0805_2012Metric";4;"Ferrite";;;
+11;"R1";"R_0805_2012Metric";1;"69.8K";;;
